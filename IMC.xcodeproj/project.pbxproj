@@ -37,6 +37,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		701D2AAF2828E7EE0098C90D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				70A2DD0928238805005C56EA /* Main.storyboard */,
+				70A2DD0E28238809005C56EA /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		701D2AB02828E8220098C90D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70A2DD0728238805005C56EA /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		70A2DCF728238805005C56EA = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +73,11 @@
 		70A2DD0228238805005C56EA /* IMC */ = {
 			isa = PBXGroup;
 			children = (
+				701D2AB02828E8220098C90D /* Controller */,
+				701D2AAF2828E7EE0098C90D /* UI */,
 				70A2DD0328238805005C56EA /* AppDelegate.swift */,
 				70A2DD0528238805005C56EA /* SceneDelegate.swift */,
-				70A2DD0728238805005C56EA /* ViewController.swift */,
-				70A2DD0928238805005C56EA /* Main.storyboard */,
 				70A2DD0C28238809005C56EA /* Assets.xcassets */,
-				70A2DD0E28238809005C56EA /* LaunchScreen.storyboard */,
 				70A2DD1128238809005C56EA /* Info.plist */,
 			);
 			path = IMC;
